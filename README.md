@@ -7,9 +7,24 @@ Requirements for running the App: The D1 App created by ALMACO
 
 # Terms of Service
 The MQTT example application may be cloned through this repository. 
-By cloning or using the D1 App and example application, you agree to ALMACO's Terms of Service: ALMACO End User License Agreement .txt
+By cloning or using the D1 App and example application, you agree to ALMACO's Terms of Service: **ALMACO End User License Agreement .txt**
 
 # Understanding Operation 
+ The project as three main components to it; JSON.cs, MQTTConnection.cs, and Program.cs.
+
+## JSON.cs
+The JSON.cs file contains the 3 JSON objects that pertain to the JSON objects published and received through the 
+MQTT server. They are implemented in MQTTConnection.cs and Program.cs to define the structure of what is sent 
+and received though the publish subscribe methods. 
+
+## MQTTConnection.cs
+The connection to the MQTT server is done through the code in MQTTConnection.cs. This file contains key methods 
+for creating your client and subscribing to the topics to want to know about. 
+
+## Program.cs
+The main code of the console application is located in the Program.cs file. This is a minimal application 
+that lets the user type in: hide, show, readings, or connected.These commands either will display a message 
+from a published MQTT topic or it will publish to a topic and change the display location of the D1 App. 
 
 # Helpful Resources
 Libraries that we use to perform the MQTT operations:

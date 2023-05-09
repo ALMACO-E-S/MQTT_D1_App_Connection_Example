@@ -123,7 +123,6 @@ namespace MQTT_D1_App_Connection_Example
             public string command_string { get; set; }
             public string response_string { get; set; }
         }
-    
 
 
     public static class Constants
