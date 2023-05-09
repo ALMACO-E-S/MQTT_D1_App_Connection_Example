@@ -7,6 +7,20 @@ Requirements for running the App: The D1 App created by ALMACO
 
 # Terms of Service
 The MQTT example application may be cloned through this repository. 
-By cloning or using the D1 App and example application, you agree to ALMACO's Terms of Service: 
+By cloning or using the D1 App and example application, you agree to ALMACO's Terms of Service: ALMACO End User License Agreement .txt
 
-# Run the Code
+# Understanding Operation 
+
+# Helpful Resources
+Libraries that we use to perform the MQTT operations:
+
+	Newtonsoft.json version 13.0.2
+https://www.newtonsoft.com/json 
+
+	MQTTnet version 4.1.3.436
+	MQTTnet.Extensions.ManagedClient 4.1.3.436
+
+https://github.com/dotnet/MQTTnet
+
+A helpful for tool for working with MQTT is MQTT Explorer.
+https://apps.microsoft.com/store/detail/mqttexplorer/9PP8SFM082WD?hl=en-us&gl=us
