@@ -14,7 +14,7 @@ bool connected = false;
    
 connected = await mqtt.StartClient();
 
-if(connected) Console.WriteLine("Type in an MQTT command for view an item that was subscribed to or publishing a command to the D1.\n " +
+if(connected) Console.WriteLine("Type in a command to view an item that was subscribed to or publishing a command to the D1 App.\n " +
                                 "Options for commands are: hide, show, readings, connected"+" \n");
 while (connected)
 {

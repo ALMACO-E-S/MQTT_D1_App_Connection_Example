@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KL+/oQXes6E2n3rMI/2UJYS74PGhxhKrc6dV0i5ERV8TuWm3py5HwKeQQtxg6aCr6AOOzYElTIT3rExWzViKJg==",
+  "dgSpecHash": "hf+o5iQmaP8zHAtuGWF46A1q+vUf14nkCnQJSsMOQIarcRivWkrHbGXs+2Ko83U1TfjXZvQ4nS+ySgZmSXE05A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\evak\\Documents\\Spring2023\\MQTT_D1_App_Connection_Example\\MQTT_D1_App_Connection_Example\\MQTT_D1_App_Connection_Example.csproj",
+  "projectFilePath": "C:\\Users\\evak\\Documents\\Spring2023\\ex\\MQTT_D1_App_Connection_Example\\MQTT_D1_App_Connection_Example.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\evak\\.nuget\\packages\\mqttnet\\4.1.3.436\\mqttnet.4.1.3.436.nupkg.sha512",
     "C:\\Users\\evak\\.nuget\\packages\\mqttnet.extensions.managedclient\\4.1.3.436\\mqttnet.extensions.managedclient.4.1.3.436.nupkg.sha512",
