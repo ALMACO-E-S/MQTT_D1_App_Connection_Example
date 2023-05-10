@@ -14,7 +14,8 @@ bool connected = false;
    
 connected = await mqtt.StartClient();
 
-
+if(connected) Console.WriteLine("Type in an MQTT command for view an item that was subscribed to or publishing a command to the D1.\n " +
+                                "Options for commands are: hide, show, readings, connected"+" \n");
 while (connected)
 {
     string input = Console.ReadLine();
@@ -42,7 +43,8 @@ while (connected)
             Console.Write("This is the left temp but in you can change the code to make it something else " + d1Readings.left_temperature_raw +" \n");
             break;
         case "connected":
-            Console.Write("The MQTT is connected? "+ d1Response.response_string);
+            if(d1Response.command_string != null) Console.Write("The MQTT is connected? "+ d1Response.response_string);
+            else Console.WriteLine("There was nothing published for us to view");
             break;
         default:
             Console.WriteLine("Options for commands are: hide, show, readings, connected"+" \n");

@@ -10,7 +10,8 @@ The MQTT example application may be cloned through this repository.
 By cloning or using the D1 App and example application, you agree to ALMACO's Terms of Service: **ALMACO End User License Agreement .txt**
 
 # Understanding Operation 
- The project as three main components to it; JSON.cs, MQTTConnection.cs, and Program.cs.
+ The project itself is a simple console app that allows the user to manually view and publish messages through
+ typing them out on the command line. There are three main components to it; JSON.cs, MQTTConnection.cs, and Program.cs.
 
 ## JSON.cs
 The JSON.cs file contains the 3 JSON objects that pertain to the JSON objects published and received through the 
