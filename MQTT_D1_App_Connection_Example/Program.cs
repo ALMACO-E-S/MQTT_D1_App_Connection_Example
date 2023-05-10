@@ -40,7 +40,7 @@ while (connected)
             await mqtt.MqttPublish("d1-command", showJSON);
             break;
         case "readings":
-            Console.Write("This is the left temp but in you can change the code to make it something else " + d1Readings.left_temperature_raw +" \n");
+            Console.Write("This is the left temp but in the code you can change it to something else. Left Temp:" + d1Readings.left_temperature_raw +" \n");
             break;
         case "connected":
             if(d1Response.command_string != null) Console.Write("The MQTT is connected? "+ d1Response.response_string);
