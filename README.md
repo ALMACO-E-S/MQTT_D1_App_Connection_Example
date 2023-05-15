@@ -16,22 +16,20 @@ By cloning or using the D1 App and example application, you agree to ALMACO's Te
 ## JSON.cs
 The JSON.cs file contains the 3 JSON objects that pertain to the JSON objects published and received through the 
 MQTT server. They are implemented in MQTTConnection.cs and Program.cs to define the structure of what is sent 
-and received though the publish subscribe methods. 
+and received through the publish and subscribe methods. 
 
 ## MQTTConnection.cs
 The connection to the MQTT server is done through the code in MQTTConnection.cs. This file contains key methods 
-for creating your client and subscribing to the topics to want to know about. 
+for creating your client and subscribing to the topics you want to know about. 
 
 ## Program.cs
 The main code of the console application is located in the Program.cs file. This is a minimal application 
-that lets the user type in: hide, show, readings, or connected.These commands either will display a message 
+that lets the user type in: hide, show, readings, or connected.  These commands either will display a message 
 from a published MQTT topic or it will publish to a topic and change the display location of the D1 App. 
 
 # Helpful Resources
 Libraries that we use to perform the MQTT operations:
 
-	Newtonsoft.json version 13.0.2
-https://www.newtonsoft.com/json 
 
 	MQTTnet version 4.1.3.436
 	MQTTnet.Extensions.ManagedClient 4.1.3.436
@@ -39,4 +37,5 @@ https://www.newtonsoft.com/json
 https://github.com/dotnet/MQTTnet
 
 A helpful for tool for working with MQTT is MQTT Explorer.
+
 https://apps.microsoft.com/store/detail/mqttexplorer/9PP8SFM082WD?hl=en-us&gl=us
