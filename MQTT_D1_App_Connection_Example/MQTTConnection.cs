@@ -77,6 +77,11 @@ internal class MQTTConnection
     return managedMqttClient.IsConnected;
   }
 
+  /// <summary>
+  /// Handles the received application message using the specified event args.
+  /// </summary>
+  /// <param name="eventArgs">Event arguments passed into the method.</param>
+  /// <returns></returns>
   public Task HandleReceivedApplicationMessage(MqttApplicationMessageReceivedEventArgs eventArgs)
   {
     var thisTopic = eventArgs.ApplicationMessage?.Topic;
